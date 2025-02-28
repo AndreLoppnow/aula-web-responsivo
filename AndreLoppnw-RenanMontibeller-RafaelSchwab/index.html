@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="syle.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
     <header>
@@ -25,7 +26,7 @@
             <img src="https://images.jammable.com/voices/oia-cat-LD0Cv/f68a510b-cde8-4e52-accf-477b387775f5.png" alt="UIA CAT">
         </article>
     </main>
-    <form action="respostaform.js" method="post">
+    <div class="form">
         <div>
            <input type="text" id="nome" name="user_name" placeholder="Nome">
         </div>
@@ -36,9 +37,9 @@
            <textarea id="msg" name="user_msg" placeholder="Mensagem"></textarea>
         </div>
         <div class="button">
-           <button type="submit">Enviar Mensagem</button>
+           <button id="enviar">Enviar Mensagem</button>
         </div>
-     </form>
+    </div>
     <footer>
         <p>&copy; 2025 Todos os direitos reservados.</p>
     </footer>
